@@ -8,9 +8,9 @@ const cesta = {
   imagemFazenda: "https://picsum.photos/400/200?farm", // imagem ilustrativa
   itens: [
     { id: "1", nome: "Alface", imagem: "https://www.enzazaden.com/br/-/media/images/enza-zaden/03_list_images-640x480/02-products-and-services/2024/01-products/lettuce/batavia-sartaneja-whole-head.jpg"},
-    { id: "2", nome: "Tomate", imagem: "https://picsum.photos/100/100?tomato" },
-    { id: "3", nome: "Cenoura", imagem: "https://picsum.photos/100/100?carrot" },
-    { id: "4", nome: "Batata", imagem: "https://picsum.photos/100/100?potato" },
+    { id: "2", nome: "Tomate", imagem: "https://res.cloudinary.com/compo-com/image/fetch/c_fill,g_xy_center,f_auto,w_708,h_531,x_iw_mul_34_div_100,y_ih_mul_44_div_100/https://www.compo.de/dam/jcr:a897bcd5-ace0-4203-9f1e-ad7bb55f7183/Tomaten_gross.jpg"},
+    { id: "3", nome: "Cenoura", imagem: "https://www.infoescola.com/wp-content/uploads/2010/08/cenoura_250834906.jpg" },
+    { id: "4", nome: "Batata", imagem: "https://conteudo.imguol.com.br/c/entretenimento/0e/2017/10/15/batata-crua-1508077604971_v2_1920x1269.jpg" },
   ],
 };
 
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    padding: 20,
+    padding: 60,
   },
   titulo: {
     fontSize: 22,
